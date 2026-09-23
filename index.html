@@ -1,222 +1,126 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Angel Beauty Zone offers premium beauty, bridal, skincare and salon services in a relaxing and luxurious environment."
-    />
-    <title>Angel Beauty Zone | Premium Beauty Care</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container nav-wrap">
-        <a href="#top" class="brand" aria-label="Angel Beauty Zone home">
-          <img src="assets/angels-beauty-zone-logo-transparent.png" alt="Angel Beauty Zone logo" />
-          <span class="brand-text">
-            <strong>Angel's Beauty Zone</strong>
-            <small>SALON &amp; ACADEMY · RAEBAR</small>
-          </span>
-        </a>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Angel's Beauty Zone - Luxury salon and beauty academy in Raebareli.">
+  <title>Angel's Beauty Zone | Salon & Academy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Angel's Beauty Zone home">
+      <img src="assets/angels-beauty-zone-logo-transparent.png" alt="Angel's Beauty Zone logo">
+      <span><strong>Angel's Beauty Zone</strong><small>Salon & Academy · Raebareli</small></span>
+    </a>
+    <button class="menu-button" type="button" data-menu-toggle aria-label="Open menu" aria-expanded="false">Menu</button>
+    <nav class="site-nav" data-navigation>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#students">Students</a>
+      <a href="#academy">Academy</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-book" href="https://wa.me/919839845748" target="_blank" rel="noopener">Book Now</a>
+    </nav>
+  </header>
 
-        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-
-        <nav class="main-nav" aria-label="Main navigation">
-          <a href="#about">ABOUT</a>
-          <a href="#makeup">MAKEUP</a>
-          <a href="#beauty">BEAUTY &amp; NAILS</a>
-          <a href="#students">STUDENTS</a>
-          <a href="#packages">PACKAGES</a>
-          <a href="#academy">ACADEMY</a>
-          <a href="#contact">CONTACT</a>
-        </nav>
-
-        <a href="#book" class="nav-cta">BOOK NOW</a>
+  <main>
+    <section class="hero" id="home">
+      <img class="hero-logo" src="assets/angels-beauty-zone-logo-transparent.png" alt="Angel's Beauty Zone logo">
+      <p class="eyebrow">Luxury Salon & Academy · Raebareli, Uttar Pradesh</p>
+      <h1>Be Your Own<br>Kind Of Beautiful</h1>
+      <p class="hero-copy">Angel's Beauty Zone is a premium beauty destination where luxury bridal artistry, refined salon services, nail studio precision, and professional beauty education come together.</p>
+      <div class="facts" aria-label="Salon facts">
+        <span><b>2021</b> Established</span>
+        <span><b>Owner</b> Kusum Soni</span>
+        <span><b>Since</b> Raebareli's Own</span>
       </div>
-    </header>
+      <div class="hero-actions">
+        <a class="button button-gold" href="https://wa.me/919839845748" target="_blank" rel="noopener">Book on WhatsApp</a>
+        <a class="button" href="tel:+919839845748">Call Now</a>
+        <a class="button" href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </section>
 
-    <main id="top">
-      <section class="hero">
-        <div class="container hero-inner">
-          <div class="brand-badge-wrap">
-            <div class="brand-badge">
-              <div class="badge-icon">A</div>
-              <div class="badge-logo">Angel's<br />Beauty Zone</div>
-              <div class="badge-meta">SALON &amp; ACADEMY</div>
-              <div class="badge-meta small">Makeup | Glam | Skin | Hair | Nail</div>
-            </div>
-          </div>
-
-          <p class="eyebrow uppercase">Luxury salon &amp; academy · Raebareli, Uttar Pradesh</p>
-          <h1>Be Your Own<br />Kind Of Beautiful</h1>
-          <p class="hero-copy">
-            Angel's Beauty Zone is a premium beauty destination where luxury bridal artistry,
-            refined salon services, nail studio precision, and professional beauty education come
-            together — led by Kusum Soni.
-          </p>
-
-          <div class="hero-stats" aria-label="Key facts">
-            <span><strong>2021</strong> Established</span>
-            <span><strong>Owner</strong> Kusum Soni</span>
-            <span><strong>Since</strong> Raebareli's Own</span>
-          </div>
-
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#book">BOOK ON WHATSAPP</a>
-            <a class="btn btn-secondary" href="#contact">CALL NOW</a>
-            <a class="btn btn-secondary" href="#social">INSTAGRAM</a>
-          </div>
+    <section class="section about" id="about">
+      <div class="section-intro">
+        <p class="eyebrow">About Angel's Beauty Zone</p>
+        <h2>A polished beauty destination for artistry, confidence & care.</h2>
+      </div>
+      <div class="about-grid">
+        <figure class="founder-photo">
+          <img src="assets/kusum-soni-founder.png" alt="Kusum Soni, founder of Angel's Beauty Zone">
+          <figcaption>Kusum Soni · Founder</figcaption>
+        </figure>
+        <div class="about-copy">
+          <p>Led by Kusum Soni, Angel's Beauty Zone brings together refined bridal makeup artistry, premium nail care, modern salon services, and professional beauty education.</p>
+          <p>Every appointment is handled with care in a clean, welcoming, consultation-led space created for confidence and beautiful results.</p>
+          <a class="text-link" href="#contact">Plan your appointment <span>→</span></a>
         </div>
+      </div>
+    </section>
 
-        <div class="floating-cta">
-          <button class="mini-btn" aria-label="WhatsApp">
-            <span>◌</span>
-          </button>
-          <button class="mini-btn secondary" aria-label="Do anything">
-            <span>Do anything</span>
-          </button>
-          <button class="mini-btn" aria-label="Message icon">
-            <span>✆</span>
-          </button>
-        </div>
-      </section>
+    <section class="section services" id="services">
+      <div class="section-intro centered">
+        <p class="eyebrow">Beauty & Nail Services</p>
+        <h2>Designed around your beauty.</h2>
+      </div>
+      <div class="service-grid">
+        <article class="service-card"><h3>Hair Services</h3><p>Hair Spa · Haircut · Hair Colour · Hair Highlights · Global Colour · Keratin · Botox · Nanoplastia · Rebonding · Smoothing · Kerasmooth</p></article>
+        <article class="service-card"><h3>Nail Studio</h3><p>Nail Extensions · Permanent Extensions · Temporary Extensions · Semi-Permanent Extensions · Acrylic Extensions · Gel Buildup · Nail Art</p></article>
+        <article class="service-card"><h3>Skin Services</h3><p>Threading · Cleanup · Basic, Deluxe & Luxury Facials · Hydra Facial · Waxing · Manicure & Pedicure · Body Polishing</p></article>
+        <article class="service-card"><h3>Makeup</h3><p>HD Basic Makeup · HD Airbrush Makeup · Celebrity Airbrush Makeup · Signature Makeup</p></article>
+      </div>
+    </section>
 
-      <section id="about" class="about-section">
-        <div class="container about-wrap">
-          <p class="section-tag uppercase">ABOUT ANGEL'S BEAUTY ZONE</p>
-          <h2>A polished beauty destination for artistry, confidence &amp; care.</h2>
+    <section class="section students" id="students">
+      <div class="section-intro centered">
+        <p class="eyebrow">Student Success</p>
+        <h2>Trained here. Thriving now.</h2>
+        <p>Meet the artists who have trained at Angel's Beauty Zone Academy.</p>
+      </div>
+      <div class="student-grid">
+        <article class="student-card"><img src="assets/students/kiran.png" alt="Kiran"><h3>Kiran</h3><p>Batch 2026–2027</p></article>
+        <article class="student-card"><img src="assets/students/arti-2025.png" alt="Arti"><h3>Arti</h3><p>Batch 2025–2026</p></article>
+        <article class="student-card"><img src="assets/students/riti.png" alt="Riti"><h3>Riti</h3><p>Batch 2025–2026</p></article>
+        <article class="student-card"><img src="assets/students/salini.png" alt="Salini"><h3>Salini</h3><p>Batch 2025–2026</p></article>
+        <article class="student-card"><img src="assets/students/vinita.png" alt="Vinita"><h3>Vinita</h3><p>Batch 2025–2026</p></article>
+        <article class="student-card"><img src="assets/students/durgesh-nandini.png" alt="Durgesh Nandini"><h3>Durgesh Nandini</h3><p>Batch 2026–2027</p></article>
+        <article class="student-card"><img src="assets/students/swati.png" alt="Swati"><h3>Swati</h3><p>Batch 2025–2026</p></article>
+        <article class="student-card"><img src="assets/students/jyoti.png" alt="Jyoti"><h3>Jyoti</h3><p>Batch 2025–2026</p></article>
+        <article class="student-card"><img src="assets/students/rubi.png" alt="Rubi"><h3>Rubi</h3><p>Batch 2026–2027</p></article>
+        <article class="student-card"><img src="assets/students/puja.png" alt="Puja"><h3>Puja</h3><p>Batch 2023–2024</p></article>
+        <article class="student-card"><img src="assets/students/kirti.png" alt="Kirti"><h3>Kirti</h3><p>Batch 2026–2027</p></article>
+        <article class="student-card"><img src="assets/students/subhashini.png" alt="Subhashini"><h3>Subhashini</h3><p>Batch 2026–2027</p></article>
+        <article class="student-card"><img src="assets/students/dipika.png" alt="Dipika"><h3>Dipika</h3><p>Batch 2026–2027</p></article>
+        <article class="student-card"><img src="assets/students/rashmi.png" alt="Rashmi"><h3>Rashmi</h3><p>Batch 2026–2027</p></article>
+        <article class="student-card"><img src="assets/students/jaya.png" alt="Jaya"><h3>Jaya</h3><p>Batch 2026–2027</p></article>
+        <article class="student-card"><img src="assets/students/rajeshwari.png" alt="Rajeshwari"><h3>Rajeshwari</h3><p>Angel's Beauty Zone Student</p></article>
+        <article class="student-card"><img src="assets/students/babali.png" alt="Babali"><h3>Babali</h3><p>Batch 2025–2026</p></article>
+        <article class="student-card"><img src="assets/students/arti-2026.png" alt="Arti"><h3>Arti</h3><p>Batch 2026–2027</p></article>
+      </div>
+    </section>
 
-          <div class="about-grid">
-            <div class="portrait-card">
-              <img src="assets/kusum-soni-founder.png" alt="Kusum Soni, founder of Angel Beauty Zone" />
-              <div class="portrait-caption">KUSUM SONI · FOUNDER</div>
-            </div>
+    <section class="section academy" id="academy">
+      <img src="assets/angels-beauty-zone-logo-transparent.png" alt="Angel's Beauty Zone logo">
+      <p class="eyebrow">Meet the Founder</p>
+      <h2>Kusum Soni</h2>
+      <p>With years of dedication to beauty and professional education, Kusum Soni continues to inspire confidence, creativity, and excellence in every artist trained at Angel's Beauty Zone.</p>
+    </section>
 
-            <div class="about-copy">
-              <p>
-                Led by Kusum Soni, Angel's Beauty Zone brings together refined bridal makeup
-                artistry, a premium nail studio, modern salon services, and professional beauty
-                education — all in one hygienic, consultation-led space at Nirala Nagar,
-                Rae Bareli.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+    <section class="section contact" id="contact">
+      <div><p class="eyebrow">Appointments & Enquiries</p><h2>Let's create your next beautiful look.</h2></div>
+      <div class="contact-actions">
+        <a class="button button-gold" href="https://wa.me/919839845748" target="_blank" rel="noopener">WhatsApp Us</a>
+        <a class="button" href="tel:+919839845748">Call +91 98398 45748</a>
+      </div>
+    </section>
+  </main>
 
-      <section id="beauty" class="feature-section">
-        <div class="container feature-grid">
-          <article class="feature-card">
-            <span class="feature-number">01</span>
-            <h3>Bridal Specialists</h3>
-            <p>HD, airbrush and celebrity-style bridal glam crafted for a camera-ready, grace-full finish.</p>
-          </article>
-
-          <article class="feature-card">
-            <span class="feature-number">02</span>
-            <h3>Luxury Salon Care</h3>
-            <p>Hair, skin, waxing and threading delivered with detail-focused, elevated technique.</p>
-          </article>
-
-          <article class="feature-card">
-            <span class="feature-number">03</span>
-            <h3>Premium Nail Studio</h3>
-            <p>From sculpted extensions to clean manicures, every nail detail finished with precision.</p>
-          </article>
-
-          <article class="feature-card">
-            <span class="feature-number">04</span>
-            <h3>Beauty Academy</h3>
-            <p>Career-oriented training for aspiring artists who want confident, professional technique.</p>
-          </article>
-
-          <article class="feature-card">
-            <span class="feature-number">05</span>
-            <h3>Personalised Consultation</h3>
-            <p>Every service begins with a skin, event and style conversation for a tailored result.</p>
-          </article>
-
-          <article class="feature-card">
-            <span class="feature-number">06</span>
-            <h3>Hygienic Environment</h3>
-            <p>Clean tools, thoughtful workflow, and comfort-first standards at every appointment.</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="makeup" class="pricing-section">
-        <div class="container pricing-wrap">
-          <p class="section-tag uppercase">PROFESSIONAL MAKEUP SERVICES</p>
-          <h2>Luxury artistry for every milestone.</h2>
-          <p class="pricing-subtext">Bridal, engagement, reception and party makeup tailored by our artists.</p>
-
-          <div class="pricing-grid">
-            <article class="pricing-card">
-              <div class="card-head uppercase">SIGNATURE</div>
-              <h3>Basic Bridal Makeup</h3>
-              <div class="price">₹10,000</div>
-              <p>A clean, elegant bridal finish with polished skin and graceful longevity.</p>
-              <a href="#book" class="inline-link">ENQUIRE ON WHATSAPP →</a>
-            </article>
-
-            <article class="pricing-card featured">
-              <div class="card-head uppercase">POPULAR</div>
-              <h3>HD Bridal Makeup</h3>
-              <div class="price">₹12,000</div>
-              <p>High-definition finish with refined skin work and camera-ready coverage.</p>
-              <a href="#book" class="inline-link">ENQUIRE ON WHATSAPP →</a>
-            </article>
-
-            <article class="pricing-card">
-              <div class="card-head uppercase">PREMIUM</div>
-              <h3>Airbrush Bridal Makeup</h3>
-              <div class="price">₹15,000</div>
-              <p>Feather-light airbrush coverage for a seamless, luxury bridal look.</p>
-              <a href="#book" class="inline-link">ENQUIRE ON WHATSAPP →</a>
-            </article>
-
-            <article class="pricing-card">
-              <div class="card-head uppercase">LUXURY</div>
-              <h3>Celebrity Airbrush Makeup</h3>
-              <div class="price">₹18,000</div>
-              <p>Our most elevated bridal package — statement-ready and stage-perfect.</p>
-              <a href="#book" class="inline-link">ENQUIRE ON WHATSAPP →</a>
-            </article>
-
-            <article class="pricing-card">
-              <div class="card-head uppercase">OCCASION</div>
-              <h3>Engagement &amp; Reception</h3>
-              <div class="price">On Consultation</div>
-              <p>Soft radiance for engagement, sophisticated evening glam for reception.</p>
-              <a href="#book" class="inline-link">ENQUIRE ON WHATSAPP →</a>
-            </article>
-
-            <article class="pricing-card">
-              <div class="card-head uppercase">TRADITIONAL</div>
-              <h3>Haldi &amp; Mehendi Glam</h3>
-              <div class="price">On Consultation</div>
-              <p>Fresh, joyful and lightweight glam for intimate traditional celebrations.</p>
-              <a href="#book" class="inline-link">ENQUIRE ON WHATSAPP →</a>
-            </article>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <button class="whatsapp-float" aria-label="Chat on WhatsApp">✆</button>
-
-    <script src="script.js"></script>
-  </body>
+  <footer><p>© 2026 Angel's Beauty Zone. All rights reserved.</p><p>Raebareli, Uttar Pradesh</p></footer>
+  <script src="script.js"></script>
+</body>
 </html>
